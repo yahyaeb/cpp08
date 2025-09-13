@@ -6,13 +6,14 @@
 #    By: yel-bouk <yel-bouk@student.42nice.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/06/30 16:05:46 by yel-bouk          #+#    #+#              #
-#    Updated: 2025/09/13 13:24:21 by yel-bouk         ###   ########.fr        #
+#    Updated: 2025/09/13 16:37:13 by yel-bouk         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = Span
 CC = c++
-SRCS =	main.cpp
+SRCS =	main.cpp \
+		Span.cpp
 
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
